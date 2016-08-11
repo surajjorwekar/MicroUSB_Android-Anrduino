@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">NFC App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="uname">Username/Email Address</string>
+    <string name="pass">Password</string>
+    <string name="log">LOG IN</string>
+    <string name="forgot">FORGOT </string>
+
+    <string name="reg">Register</string>
+    <string name="title_activity_main__ui">Main_UI</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+    <string name="title_activity_university">UniversityActivity</string>
+    <string name="title_activity_hospital">HospitalActivity</string>
+    <string name="title_activity_airport">AirportActivity</string>
+    <string name="ProfilePicture">Profile Picture</string>
+
+
+
+    <string name="fa_icon_sign_out">&#xf08b;</string>
+    <string name="fa_icon_user">&#xf007;</string>
+    <string name="fa_icon_key">&#xf084;</string>
+    <string name="fa_icon_mobile">&#xf10b;</string>
+    <string name="fa_icon_envelope">&#xf0e0;</string>
+    <string name="fa_icon_gender">&#xf224;</string>
+    <string name="fa_icon_home">&#xf015;</string>
+    <string name="fa_icon_birthday">&#xf1fd;</string>
+    <string name="fa_anchor">&#xf13d;</string>
+    <string name="fa_calendar">&#xf073;</string>
+    <string name="fa_ambulance">&#xf0f9;</string>
+    <string name="fa_bookmark">&#xf02e;</string>
+    <string name="fa_battery">&#xf243;</string>
+    <string name="fa_medkit">&#xf0fa;</string>
+    <string name="fa_phone">&#xf095;</string>
+    <string name="title_activity_wait_for_nfc">WaitForNFC</string>
+</resources>
