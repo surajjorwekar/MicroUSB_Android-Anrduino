@@ -1,46 +1,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="450dp"
     tools:context="com.readhtml.surajjorwekar.microu.Register.UniversityRegistration">
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="450dp">
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:background="#007ba6"
-                android:measureWithLargestChild="false"
-                android:layout_weight="90">
-
-                <!-- <ImageView
-                     android:layout_width="fill_parent"
-                     android:layout_height="115dp"
-                     android:id="@+id/imageView"
-                     android:src="@drawable/uvu"
-                     android:contentDescription="@string/ProfilePicture"
-                     android:paddingTop="10dp" />-->
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:id="@+id/create"
-                    android:layout_gravity="center"
-                    android:paddingTop="2dp"
-                    android:textColor="#ffffff"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
-                    android:text="Create New Application"
-                    android:layout_marginTop="8dp" />
-
-            </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
@@ -53,7 +23,7 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="7dp">
+                    android:layout_marginTop="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -79,8 +49,7 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="7dp">
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -108,35 +77,151 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="7dp">
+                    android:layout_height="wrap_content">
 
-                    <TextView
+                    <LinearLayout
+                        android:orientation="horizontal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#6b716d"
-                        android:text="@string/fa_icon_gender"
-                        android:id="@+id/t4"
-                        android:paddingLeft="16dp"
-                        android:textSize="15dp" />
+                        android:layout_weight="50">
 
-                    <EditText
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6b716d"
+                            android:text="@string/fa_icon_gender"
+                            android:id="@+id/t4"
+                            android:paddingLeft="16dp"
+                            android:textSize="15dp" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/gender"
+                            android:paddingLeft="10dp"
+                            android:autoText="false"
+                            android:hint="Gender"
+                            android:textColorHint="#848b86"
+                            android:textColor="#6b716d" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/gender"
-                        android:paddingLeft="10dp"
-                        android:autoText="false"
-                        android:hint="Gender"
-                        android:textColorHint="#848b86"
-                        android:textColor="#6b716d" />
+                        android:layout_weight="50">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6b716d"
+                            android:text="@string/fa_calendar"
+                            android:id="@+id/t4_1"
+                            android:textSize="15dp" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/year"
+                            android:paddingLeft="10dp"
+                            android:autoText="false"
+                            android:hint="Year"
+                            android:textColorHint="#848b86"
+                            android:textColor="#6b716d" />
+                    </LinearLayout>
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="7dp">
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6b716d"
+                            android:text="@string/fa_icon_gender"
+                            android:id="@+id/t4_2"
+                            android:paddingLeft="16dp"
+                            android:textSize="15dp" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/course"
+                            android:paddingLeft="10dp"
+                            android:autoText="false"
+                            android:hint="Course"
+                            android:textColorHint="#848b86"
+                            android:textColor="#6b716d" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#6b716d"
+                            android:text="@string/fa_calendar"
+                            android:id="@+id/t4_4"
+                            android:paddingLeft="16dp"
+                            android:textSize="15dp" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/universityno"
+                            android:paddingLeft="10dp"
+                            android:autoText="false"
+                            android:hint="GR NO"
+                            android:textColorHint="#848b86"
+                            android:textColor="#6b716d" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6b716d"
+                        android:text="@string/fa_college"
+                        android:id="@+id/t4_3"
+                        android:paddingLeft="16dp"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/college"
+                        android:paddingLeft="10dp"
+                        android:hint="College"
+                        android:textColor="#6b716d"
+                        android:textColorHint="#848b86" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -163,8 +248,7 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="7dp">
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -191,9 +275,7 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="7dp"
-                    android:layout_marginTop="7dp">
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -220,9 +302,7 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="7dp"
-                    android:layout_marginTop="7dp">
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -244,33 +324,6 @@
                         android:textColorHint="#848b86"
                         android:hint="Address" />
 
-                </LinearLayout>
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="7dp" >
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#6b716d"
-                        android:text="@string/fa_icon_user"
-                        android:id="@+id/t7"
-                        android:paddingLeft="16dp"
-                        android:textSize="15dp" />
-
-                    <EditText
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:inputType="textPersonName"
-                        android:ems="10"
-                        android:id="@+id/url"
-                        android:paddingLeft="10dp"
-                        android:hint="URL of image"
-                        android:textColor="#6b716d"
-                        android:textColorHint="#848b86" />
                 </LinearLayout>
 
             </LinearLayout>

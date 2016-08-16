@@ -227,7 +227,7 @@
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="07 Dec. 1994"
-                        android:id="@+id/textView2"
+                        android:id="@+id/dob"
                         android:textColor="#4d4d4d"
                         android:textAlignment="inherit"
                         android:paddingLeft="10dp" />

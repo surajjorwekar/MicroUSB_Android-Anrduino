@@ -34,6 +34,7 @@
     <string name="fa_battery">&#xf243;</string>
     <string name="fa_medkit">&#xf0fa;</string>
     <string name="fa_phone">&#xf095;</string>
+    <string name="fa_college">&#xf02d;</string>
     <string name="title_activity_wait_for_nfc">WaitForNFC</string>
     <string name="title_activity_aadhar_registration">AadharRegistration</string>
     <string name="title_activity_hospital_registration">HospitalRegistration</string>

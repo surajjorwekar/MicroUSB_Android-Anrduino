@@ -37,10 +37,21 @@ public class UniversityActivity extends AppCompatActivity {
         //----------- Initiate textfields--------------------------
         Intent i = getIntent();
         if (i!=null) {
-            String stringData= i.getStringExtra("name");
-            TextView name = (TextView) findViewById(R.id.hname);
+            String[] stringData= i.getStringArrayExtra("name");
 
-            name.setText(stringData);
+            //TextView name = (TextView) findViewById(R.id.hname);
+
+            ((TextView) findViewById(R.id.hname)).setText(stringData[1]);
+            ((TextView) findViewById(R.id.universityno)).setText(stringData[2]);
+            ((TextView) findViewById(R.id.year)).setText(stringData[3]);
+            ((TextView) findViewById(R.id.course)).setText(stringData[4]);
+            ((TextView) findViewById(R.id.college)).setText(stringData[5]);
+            ((TextView) findViewById(R.id.name)).setText(stringData[6]);
+            ((TextView) findViewById(R.id.gender)).setText(stringData[7]);
+            ((TextView) findViewById(R.id.phone)).setText(stringData[8]);
+            ((TextView) findViewById(R.id.mail)).setText(stringData[9]);
+            ((TextView) findViewById(R.id.dob)).setText(stringData[10]);
+            ((TextView) findViewById(R.id.address)).setText(stringData[11]);
         }
         //---------------------------------------------------------
     }
