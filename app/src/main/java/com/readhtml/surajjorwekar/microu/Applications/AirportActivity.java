@@ -1,16 +1,18 @@
-package com.readhtml.surajjorwekar.microu;
+package com.readhtml.surajjorwekar.microu.Applications;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.readhtml.surajjorwekar.microu.R;
+
 public class AirportActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_airport);
+        setContentView(R.layout.airport);
     }
 
     @Override

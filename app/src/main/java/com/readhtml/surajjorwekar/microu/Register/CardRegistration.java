@@ -1,22 +1,24 @@
-package com.readhtml.surajjorwekar.microu;
+package com.readhtml.surajjorwekar.microu.Register;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class PaymentActivity extends AppCompatActivity {
+import com.readhtml.surajjorwekar.microu.R;
+
+public class CardRegistration extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_payment);
+        setContentView(R.layout.card_registration);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_payment, menu);
+        getMenuInflater().inflate(R.menu.menu_card_registration, menu);
         return true;
     }
 

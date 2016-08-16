@@ -1,0 +1,268 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.readhtml.surajjorwekar.microu.Applications.UniversityActivity"
+    android:background="@android:color/background_dark">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:minHeight="150dp"
+                android:background="#007ba6"
+                android:measureWithLargestChild="false"
+                android:layout_weight="60">
+
+               <!-- <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="115dp"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/uvu"
+                    android:contentDescription="@string/ProfilePicture"
+                    android:paddingTop="10dp" />-->
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/srj"
+
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:id="@+id/hname"
+                    android:layout_gravity="center"
+                    android:paddingTop="2dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="5dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Gr No 132098"
+                    android:id="@+id/universityno"
+                    android:layout_gravity="center"
+                    android:textColor="#f7f7f7"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Fourth Year 2016-17"
+                    android:id="@+id/year"
+                    android:layout_gravity="center"
+                    android:textColor="#f7f7f7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Bachelors of Computer Engineering"
+                    android:id="@+id/course"
+                    android:layout_gravity="center"
+                    android:textColor="#f7f7f7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Vishwakarma Institute of Technology"
+                    android:id="@+id/college"
+                    android:layout_gravity="center"
+                    android:textColor="#f7f7f7" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_light"
+                android:layout_weight="50">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="7dp"
+                    android:layout_marginTop="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6b716d"
+                        android:text="@string/fa_icon_user"
+                        android:id="@+id/t1"
+                        android:paddingLeft="16dp"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Suraj Raghunath Jorwekar"
+                        android:id="@+id/name"
+                        android:textColor="#4d4d4d"
+                        android:paddingLeft="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="7dp"
+                    android:layout_marginTop="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6b716d"
+                        android:text="@string/fa_icon_gender"
+                        android:id="@+id/t4"
+                        android:paddingLeft="16dp"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Male"
+                        android:id="@+id/gender"
+                        android:textColor="#4d4d4d"
+                        android:paddingLeft="10dp"
+                        android:gravity="end" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="7dp"
+                    android:layout_marginTop="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6b716d"
+                        android:text="@string/fa_icon_mobile"
+                        android:id="@+id/t2"
+                        android:paddingLeft="16dp"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="7588031035"
+                        android:id="@+id/phone"
+                        android:textColor="#4d4d4d"
+                        android:paddingLeft="10dp"
+                        android:gravity="end" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="7dp"
+                    android:layout_marginTop="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6b716d"
+                        android:text="@string/fa_icon_envelope"
+                        android:id="@+id/t3"
+                        android:paddingLeft="16dp"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="surajjorwekar@gmail.com"
+                        android:id="@+id/mail"
+                        android:textColor="#4d4d4d"
+                        android:paddingLeft="10dp"
+                        android:gravity="end" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="7dp"
+                    android:layout_marginTop="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6b716d"
+                        android:text="@string/fa_icon_birthday"
+                        android:id="@+id/t6"
+                        android:paddingLeft="16dp"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="07 Dec. 1994"
+                        android:id="@+id/textView2"
+                        android:textColor="#4d4d4d"
+                        android:textAlignment="inherit"
+                        android:paddingLeft="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="7dp"
+                    android:layout_marginTop="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6b716d"
+                        android:text="@string/fa_icon_home"
+                        android:id="@+id/t5"
+                        android:paddingLeft="16dp"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Flat No. 2A, Bhakti Apt., Near Police Bibwewadi Police Station, Bibwewadi, Pune -37"
+                        android:id="@+id/address"
+                        android:textColor="#4d4d4d"
+                        android:textAlignment="inherit"
+                        android:paddingLeft="10dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

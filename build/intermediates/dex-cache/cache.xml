@@ -2,39 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/surajjorwekar/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/okio-1.6.0-fe9d16de56af05bf8295c48746cef60ab7fe4c0a.jar" />
-    </item>
-    <item
-        jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="661a632c3b434991d6364690cbe0f786371101cc">
-        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-49da557180848ef76d776db5e2970bdb0105164e.jar" />
-    </item>
-    <item
-        jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
-        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-dff137cb4efa5ad82e10dcd7342da0acd9d7b8d4.jar" />
-    </item>
-    <item
         jar="/Users/surajjorwekar/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
         <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0-81511d9dec2670f71a4d6e8260727091bb9f0381.jar" />
-    </item>
-    <item
-        jar="/Users/surajjorwekar/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0-alpha2/support-annotations-24.0.0-alpha2.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8071e1e6cd07e9253720313d6c14286a7ee424e0">
-        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0-alpha2-3ebfd0473d9e33a0ea5e09932d931a2a0548799f.jar" />
     </item>
     <item
         jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-alpha2/jars/libs/internal_impl-24.0.0-alpha2.jar"
@@ -44,18 +16,18 @@
         <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0-alpha2-b7ad842d5306ff9a9ef233d4f91487317602d22c.jar" />
     </item>
     <item
+        jar="/Users/surajjorwekar/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/okio-1.6.0-fe9d16de56af05bf8295c48746cef60ab7fe4c0a.jar" />
+    </item>
+    <item
         jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="379471b2bd17d9737c050345c08e8c7d16589784">
         <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-39acb6ce23f729b05f364bdaffc29b3ead7334a5.jar" />
-    </item>
-    <item
-        jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0-alpha2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="df7f6513d6e2aaa302bbac654807c6129b517090">
-        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-e1067c9415e437464cd113686e9e1b25e4548f6a.jar" />
     </item>
     <item
         jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-alpha2/jars/classes.jar"
@@ -65,18 +37,32 @@
         <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-7d829c63520332c5f6f3e2dcf6519f57c980a82c.jar" />
     </item>
     <item
+        jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-dff137cb4efa5ad82e10dcd7342da0acd9d7b8d4.jar" />
+    </item>
+    <item
+        jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.amitshekhar.android/android-networking/0.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e580ed5da13f6d79688e4b91eb64977cf04428a4">
+        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-5e45a9f266ac0ecfe1abcf2852bd882cf46f2969.jar" />
+    </item>
+    <item
+        jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="661a632c3b434991d6364690cbe0f786371101cc">
+        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-49da557180848ef76d776db5e2970bdb0105164e.jar" />
+    </item>
+    <item
         jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
         <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-3b6c7dc2a855c56ec9e4ce8e8d19d4183c078878.jar" />
-    </item>
-    <item
-        jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.github.felHR85/UsbSerial/3.3/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="364f353f4c2366f45df5e677a0c83c837c5fe3b0">
-        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-feb6d68a5bf18c6e0763ba2b5ab26dbbbc5bfa28.jar" />
     </item>
     <item
         jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0-alpha2/jars/classes.jar"
@@ -86,18 +72,32 @@
         <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-3c17fb39db68f128d1b1d097df657de7e975ca3a.jar" />
     </item>
     <item
+        jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.github.felHR85/UsbSerial/3.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="364f353f4c2366f45df5e677a0c83c837c5fe3b0">
+        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-feb6d68a5bf18c6e0763ba2b5ab26dbbbc5bfa28.jar" />
+    </item>
+    <item
+        jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0-alpha2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="df7f6513d6e2aaa302bbac654807c6129b517090">
+        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-e1067c9415e437464cd113686e9e1b25e4548f6a.jar" />
+    </item>
+    <item
+        jar="/Users/surajjorwekar/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0-alpha2/support-annotations-24.0.0-alpha2.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8071e1e6cd07e9253720313d6c14286a7ee424e0">
+        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0-alpha2-3ebfd0473d9e33a0ea5e09932d931a2a0548799f.jar" />
+    </item>
+    <item
         jar="/Users/surajjorwekar/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.0-beta1/54d65d51b5ebec588a19b2384efb6395b5bf5b18/MPAndroidChart-v3.0.0-beta1.jar"
         jumboMode="false"
         revision="23.0.0"
         sha1="54d65d51b5ebec588a19b2384efb6395b5bf5b18">
         <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v3.0.0-beta1-4cd5038d3661e7cb19142dd3f404b9a1366565e8.jar" />
-    </item>
-    <item
-        jar="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/exploded-aar/com.amitshekhar.android/android-networking/0.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="e580ed5da13f6d79688e4b91eb64977cf04428a4">
-        <dex dex="/Users/surajjorwekar/Desktop/YDData/ANDROID/MicroUSB_Android-Arduino/app/build/intermediates/pre-dexed/debug/classes-5e45a9f266ac0ecfe1abcf2852bd882cf46f2969.jar" />
     </item>
 
 </items>

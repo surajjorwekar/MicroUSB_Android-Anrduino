@@ -1,16 +1,18 @@
-package com.readhtml.surajjorwekar.microu;
+package com.readhtml.surajjorwekar.microu.Applications;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import com.readhtml.surajjorwekar.microu.R;
+
 public class HospitalActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hospital);
+        setContentView(R.layout.hospital);
 
         Typeface font = Typeface.createFromAsset(getAssets(), "fonts/fontawesome-webfont.ttf");
 

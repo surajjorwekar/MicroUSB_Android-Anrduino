@@ -9,7 +9,6 @@
         android:name="android.hardware.usb.host"
         android:required="true" />
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -25,29 +24,47 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PaymentActivity"
+            android:name=".Applications.PaymentActivity"
             android:label="@string/title_activity_payment" >
         </activity>
         <activity
-            android:name=".UniversityActivity"
+            android:name=".Applications.UniversityActivity"
             android:label="@string/title_activity_university" >
         </activity>
         <activity
-            android:name=".HospitalActivity"
+            android:name=".Applications.HospitalActivity"
             android:label="@string/title_activity_hospital" >
         </activity>
         <activity
-            android:name=".AirportActivity"
+            android:name=".Applications.AirportActivity"
             android:label="@string/title_activity_airport" >
         </activity>
         <activity
             android:name=".WaitForNFC"
             android:label="@string/title_activity_wait_for_nfc" >
         </activity>
+
         <service
-            android:name="com.readhtml.surajjorwekar.microu.UsbService"
-            android:enabled="true">
+            android:name=".Utils.UsbService"
+            android:enabled="true" >
         </service>
+
+        <activity
+            android:name=".Register.AadharRegistration"
+            android:label="@string/title_activity_aadhar_registration" >
+        </activity>
+        <activity
+            android:name=".Register.HospitalRegistration"
+            android:label="@string/title_activity_hospital_registration" >
+        </activity>
+        <activity
+            android:name=".Register.CardRegistration"
+            android:label="@string/title_activity_card_registration" >
+        </activity>
+        <activity
+            android:name=".Register.UniversityRegistration"
+            android:label="@string/title_activity_university_registration" >
+        </activity>
     </application>
 
 </manifest>
