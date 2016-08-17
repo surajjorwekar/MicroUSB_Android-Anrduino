@@ -248,62 +248,6 @@ public class WaitForNFC extends AppCompatActivity {
                                         switch (data.charAt(1)) {
                                             case 'U':
 
-
-                                                final View v = LayoutInflater.from(WaitForNFC.this).inflate(R.layout.hospital_registration, null);
-                                                Typeface font = Typeface.createFromAsset(getAssets(), "fonts/fontawesome-webfont.ttf");
-
-                                                TextView txt0 = (TextView) v.findViewById(R.id.ical);
-                                                TextView txt1 = (TextView) v.findViewById(R.id.idoc);
-                                                TextView txt2 = (TextView) v.findViewById(R.id.idec);
-                                                TextView txt3 = (TextView) v.findViewById(R.id.iapp);
-                                                TextView txt4 = (TextView) v.findViewById(R.id.ibat);
-                                                TextView txt5 = (TextView) v.findViewById(R.id.imed);
-                                                TextView txt6 = (TextView) v.findViewById(R.id.icon);
-                                               
-
-                                                txt0.setTypeface(font);
-                                                txt1.setTypeface(font);
-                                                txt2.setTypeface(font);
-                                                txt3.setTypeface(font);
-                                                txt4.setTypeface(font);
-                                                txt5.setTypeface(font);
-                                                txt6.setTypeface(font);
-
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(WaitForNFC.this);
-                                                builder
-                                                        .setView(v)
-                                                        .setPositiveButton("Create Application",new DialogInterface.OnClickListener() {
-                                                            public void onClick(DialogInterface dialog, int which) {
-                                                                final String DataReceived =
-                                                                                String.valueOf(((TextView) v.findViewById(R.id.name)).getText())  + "\n" +
-                                                                                String.valueOf(((TextView) v.findViewById(R.id.indate)).getText())  + "\n" +
-                                                                                String.valueOf(((TextView) v.findViewById(R.id.doctor)).getText())  + "\n" +
-                                                                                String.valueOf(((TextView) v.findViewById(R.id.app)).getText())  + "\n" +
-                                                                                String.valueOf(((TextView) v.findViewById(R.id.dis)).getText())  + "\n" +
-                                                                                String.valueOf(((TextView)v.findViewById(R.id.age)).getText())   + "\n" +
-                                                                                String.valueOf(((TextView)v.findViewById(R.id.weight)).getText())  + "\n" +
-                                                                                String.valueOf(((TextView)v.findViewById(R.id.height)).getText())   + "\n" +
-                                                                                String.valueOf(((TextView)v.findViewById(R.id.insuff)).getText())    + "\n" +
-                                                                                String.valueOf(((TextView)v.findViewById(R.id.medi)).getText())     + "\n" +
-                                                                                String.valueOf(((TextView)v.findViewById(R.id.emergency)).getText()) + "\n" ;
-
-                                                                usbService.serialPort.write(DataReceived.getBytes());
-                                                            }
-                                                        })
-
-                                                        .setCancelable(false);
-                                                AlertDialog alert = builder.create();
-                                                alert.show();
-
-                                                break;
-
-                                            case 'P':
-                                                i = new Intent(getApplicationContext(), CardRegistration.class);
-                                                i.putExtra("name", data);
-                                                startActivity(i);
-                                                break;
-
-                                            case 'H':
                                                 final View v = LayoutInflater.from(WaitForNFC.this).inflate(R.layout.university_registration, null);
                                                 Typeface font = Typeface.createFromAsset(getAssets(), "fonts/fontawesome-webfont.ttf");
 
@@ -356,6 +300,63 @@ public class WaitForNFC extends AppCompatActivity {
                                                         .setCancelable(false);
                                                 AlertDialog alert = builder.create();
                                                 alert.show();
+                                                
+                                                break;
+
+                                            case 'P':
+                                                i = new Intent(getApplicationContext(), CardRegistration.class);
+                                                i.putExtra("name", data);
+                                                startActivity(i);
+                                                break;
+
+                                            case 'H':
+                                                final View v = LayoutInflater.from(WaitForNFC.this).inflate(R.layout.hospital_registration, null);
+                                                Typeface font = Typeface.createFromAsset(getAssets(), "fonts/fontawesome-webfont.ttf");
+
+                                                TextView txt0 = (TextView) v.findViewById(R.id.ical);
+                                                TextView txt1 = (TextView) v.findViewById(R.id.idoc);
+                                                TextView txt2 = (TextView) v.findViewById(R.id.idec);
+                                                TextView txt3 = (TextView) v.findViewById(R.id.iapp);
+                                                TextView txt4 = (TextView) v.findViewById(R.id.ibat);
+                                                TextView txt5 = (TextView) v.findViewById(R.id.imed);
+                                                TextView txt6 = (TextView) v.findViewById(R.id.icon);
+                                               
+
+                                                txt0.setTypeface(font);
+                                                txt1.setTypeface(font);
+                                                txt2.setTypeface(font);
+                                                txt3.setTypeface(font);
+                                                txt4.setTypeface(font);
+                                                txt5.setTypeface(font);
+                                                txt6.setTypeface(font);
+
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(WaitForNFC.this);
+                                                builder
+                                                        .setView(v)
+                                                        .setPositiveButton("Create Application",new DialogInterface.OnClickListener() {
+                                                            public void onClick(DialogInterface dialog, int which) {
+                                                                final String DataReceived =
+                                                                                String.valueOf(((TextView) v.findViewById(R.id.name)).getText())  + "\n" +
+                                                                                String.valueOf(((TextView) v.findViewById(R.id.indate)).getText())  + "\n" +
+                                                                                String.valueOf(((TextView) v.findViewById(R.id.doctor)).getText())  + "\n" +
+                                                                                String.valueOf(((TextView) v.findViewById(R.id.app)).getText())  + "\n" +
+                                                                                String.valueOf(((TextView) v.findViewById(R.id.dis)).getText())  + "\n" +
+                                                                                String.valueOf(((TextView)v.findViewById(R.id.age)).getText())   + "\n" +
+                                                                                String.valueOf(((TextView)v.findViewById(R.id.weight)).getText())  + "\n" +
+                                                                                String.valueOf(((TextView)v.findViewById(R.id.height)).getText())   + "\n" +
+                                                                                String.valueOf(((TextView)v.findViewById(R.id.insuff)).getText())    + "\n" +
+                                                                                String.valueOf(((TextView)v.findViewById(R.id.medi)).getText())     + "\n" +
+                                                                                String.valueOf(((TextView)v.findViewById(R.id.emergency)).getText()) + "\n" ;
+
+                                                                usbService.serialPort.write(DataReceived.getBytes());
+                                                            }
+                                                        })
+
+                                                        .setCancelable(false);
+                                                AlertDialog alert = builder.create();
+                                                alert.show();
+
+                                                
                                                 break;
 
                                             case 'A':
