@@ -40,4 +40,5 @@
     <string name="title_activity_hospital_registration">HospitalRegistration</string>
     <string name="title_activity_card_registration">CardRegistration</string>
     <string name="title_activity_university_registration">UniversityRegistration</string>
+    <string name="title_activity_scan_aadhar">ScanAadhar</string>
 </resources>

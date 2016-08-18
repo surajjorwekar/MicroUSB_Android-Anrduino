@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.androidnetworking.AndroidNetworking;
+import com.readhtml.surajjorwekar.microu.Applications.AirportActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -55,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent2 = new Intent(MainActivity.this, WaitForNFC.class);
+                Intent intent2 = new Intent(MainActivity.this, AirportActivity.class);
                 startActivity(intent2);
 
                 /*
